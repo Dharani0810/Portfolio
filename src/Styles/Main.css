@@ -1,0 +1,596 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Main{
+    background: linear-gradient(rgb(28, 28, 113),rgb(32, 32, 157),rgb(6, 6, 40));
+}
+ .Navbar {
+    width: 100%;
+    height: 100px;
+    background: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+   
+  }
+  .Navbar  :hover{
+    background: rgb(59, 15, 15);
+    transition: 1s ease-in;
+  }
+  .Navbar > .Navbars{
+    height: 100%;
+    width: 75%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .Navbar >.Navbars >.Navbar1 {
+    height: 100%;
+    width: 30%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+  }
+  .Navbar >.Navbars >.Navbar1 > img {
+    height: 90px;
+  }
+  .Navbar >.Navbars >.Navbar1 > h2 {
+    color:white;
+    font-size: 38px;    
+  }
+  .Navbar >.Navbars >.Navbar2 {
+    height: 100%;
+    width: 65%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Navbar >.Navbars >.Navbar2 > a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+ .Navbar > .Navbars >.Navbar2 > a:hover {
+    color: rgb(164, 237, 237);
+  } 
+  .Navbar > .Navbars >.Navbar2 button {
+    
+    background-color: #007afc;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .Navbar >.Navbars >.Navbar2 button:hover {
+    background-color: rgb(242, 168, 57);
+  }
+
+  /* ********************************************************************Home**************************************************************** */
+
+ .Home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(23, 23, 102),rgb(32, 32, 157),rgb(6, 6, 40));
+     display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .Home >.Main-content{
+    /* margin-top: 90px; */
+    height: 70%;
+    width: 35%;
+    /* background-color: rgb(220, 63, 63); */
+    text-align: center;
+    /* padding-top: 29px;  */
+    display: flex; 
+    justify-content: flex-start; 
+    flex-direction: column;
+ }
+ .Home >.Main-content > h4{
+    color: white;
+    font-size: 20px;
+    margin-top: 130px;
+    /* padding-bottom: 29px; */
+ }
+ .Home >.Main-content > h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    /* padding-bottom: 29px; */
+    font-weight: bold;
+   
+ }
+ .Home >.Main-content button{
+    background-color: #007afc;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+ }
+ .Home >.photo{
+    /* margin-top: 90px; */
+    /* padding-top: 29px;  */
+    height: 70%;
+    width: 35%;
+    /* background-color: blueviolet; */
+ }
+ .Home > .photo > img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+ }
+
+
+
+ /* ***********************************************************************About********************************************************* */
+
+ .About {
+    width: 100%;
+    height: 100vh; 
+    /* background-color:#FF4500; */
+    background: linear-gradient(rgb(6, 6, 40),rgb(32, 32, 157),rgb(20, 20, 104));
+    display: flex;
+    justify-content: space-around;
+
+ }
+ .About > .About-content{
+    height: 704px;
+    width: 29%;
+    /* background-color: rgb(220, 63, 63); */
+ }
+
+ .About >.About-content > h1{
+   color: white;
+   font-size: 35px;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 100px;
+   padding-bottom: 29px;
+ }
+ .About >.About-content > p{
+   color: white;
+   font-size: 25px;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-align: justify;
+ }
+ .About >.Education  {
+   height: 704px;
+   width: 41%;
+   /* background-color: rgb(63, 102, 220); */
+   
+}
+.Education > h1{
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+   margin-left: 190px;
+   /* text-align: center; */
+   padding-top: 10px;
+ 
+}
+.vertical_line{
+   width: 2px; 
+   height: 600px; 
+   background-color: white; 
+   margin-top:  60px;
+}
+ 
+ .education-box {
+   background-color: rgba(255, 255, 255, 0.7); 
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   padding: 10px;
+   margin: 40px;
+   width: 440px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   transition: transform 0.3s ease;
+ }
+ 
+ .education-box:hover {
+   transform: translateY(-10px);
+ }
+ 
+ .education-box h3 {
+   margin-top: 0;
+   color: black !important;
+ }
+ 
+ .education-box p {
+   color: black;
+   margin: 5px 0;
+ }
+
+
+/* ********************************************************************Skills******************************************************** */
+
+ .Skills{
+    width: 100%;
+    height: 100vh; 
+    /* background-color: orange; */
+    background:linear-gradient(rgb(20, 20, 104),rgb(32, 32, 157),rgb(6, 6, 40));
+ }
+ .Skills > h1{
+   text-align: center;
+   color: white;
+   padding-top: 70px;
+   font-size: 50px;
+ }
+ .Skills > .Skills-content{
+   width: 90%;
+   height: 55%;
+   /* background-color:aqua ; */
+   margin-top: 20px;
+   margin-left: 80px;
+   display: flex;
+   justify-content:space-around ;
+   padding-top: 80px;
+ }
+ .Skills > .Skills-content > .HTML{
+   width: 150px; 
+   height: 150px; 
+   border: 5px solid #FF4500;
+   background-color: white; 
+   border-radius: 50%;
+   box-shadow: 0 0px 20px rgb(255, 0, 0);
+   /* overflow: hidden; */
+ }
+ .HTML img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ }
+ .HTML h2{
+   color: white;
+   margin-left: 40px;
+   margin-top: 60px;
+ }
+ .Skills > .Skills-content > .CSS{
+   width: 150px; 
+   height: 150px; 
+   border: 5px solid blue;
+   background-color: white; 
+   border-radius: 50%;
+   box-shadow: 0 0px 20px rgb(1, 35, 255);
+ }
+ .CSS img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ }
+ .CSS h2{
+   color: white;
+   margin-left: 50px;
+   margin-top: 60px;
+ }
+ .Skills > .Skills-content > .JavaScript{
+   width: 150px; 
+   height: 150px; 
+   border: 5px solid rgb(232, 232, 24);
+   background-color: white; 
+   border-radius: 50%;
+   box-shadow: 0 0px 20px rgb(246, 255, 0);
+ }
+ .JavaScript img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ }
+ .JavaScript h2{
+   color: white;
+   margin-left: 20px;
+   margin-top: 60px;
+ }
+ .Skills > .Skills-content > .MongoDB{
+   width: 150px; 
+   height: 150px; 
+   border: 5px solid green;
+   background-color: white; 
+   border-radius: 50%;
+   box-shadow: 0 0px 20px rgb(0, 241, 0);
+ }
+ .MongoDB img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ }
+ .MongoDB h2{
+   color: white;
+   margin-left: 20px;
+   margin-top: 60px;
+ }
+ .Skills > .Skills-content > .ExpressJS{
+   width: 150px; 
+   height: 150px; 
+   border: 5px solid grey;
+   background-color: white; 
+   border-radius: 50%;
+   box-shadow: 0 0px 20px gray;
+ }
+ .ExpressJS img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ }
+ .ExpressJS h2{
+   color: white;
+   margin-left: 20px;
+   margin-top: 60px;
+ }
+ .Skills > .Skills-content > .ReactJS{
+   width: 150px; 
+   height: 150px; 
+   border: 5px solid rgb(66, 171, 252);
+   background-color: white; 
+   border-radius: 50%;
+   box-shadow: 0 0px 20px rgb(0, 157, 255);
+ }
+ .ReactJS img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ }
+ .ReactJS h2{
+   color: white;
+   margin-left: 30px;
+   margin-top: 60px;
+ }
+ .Skills > .Skills-content > .NodeJS{
+   width: 150px; 
+   height: 150px; 
+   border: 5px solid green;
+   background-color: white; 
+   border-radius: 50%;
+   box-shadow: 0 0px 20px rgb(1, 255, 1);
+ }
+ .NodeJS img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ }
+ .NodeJS h2{
+   color: white;
+   margin-left: 30px;
+   margin-top: 60px;
+ }
+ .Skills > marquee {
+  color: transparent;
+  font-weight:900;
+  margin-top: 30px;
+  font-size: 90px;
+  text-shadow: 
+        -1px -1px 0 transparent,  
+        1px -1px 0 transparent,
+        -1px 1px 0 transparent,
+        1px 1px 0 rgb(214, 213, 212);
+}
+
+
+/* ****************************************************************Projects ***************************************************************** */
+
+.Projects{
+    width: 100%;
+    height: 100vh; 
+    /* background-color: aliceblue; */
+    /* display: flex; */
+    /* align-items: center;    */
+    /* justify-content: space-around; */
+    background: linear-gradient(rgb(6, 6, 40),rgb(32, 32, 157),rgb(20, 20, 104));
+}
+.Projects > h1{
+   color: white;
+   text-align: center;
+   padding-top: 70px;
+}
+.Projects > .Projects-content{
+   width: 90%;
+   height: 70%;
+   /* background-color: #007afc; */
+   margin-left: 80px;
+   display: flex;
+   justify-content:space-around ;
+   padding-top: 40px;
+ 
+}
+.Projects > .Projects-content > .p1{
+   width: 30%;
+   height: 90%;
+   /* background-color: aqua; */
+   border: 2px solid  rgb(255, 255, 255);
+   border-radius: 0px 0px 0px 60px;
+}
+.Projects > .Projects-content > .p1 > .sec1{
+   width: 100%;
+   height: 40%;
+   /* background-color: rgb(66, 171, 252); */
+}
+ .Projects > .Projects-content> .p1 >.sec1 img{
+   height: 100%;
+   width: 80%;
+   margin-left: 30px;
+   
+ }
+ .Projects > .Projects-content> .p1 h1{
+   color: white;
+   padding-bottom: 20px;
+   text-align: center;
+ }
+ .Projects>.Projects-content> .p1 p{
+   color: white;
+   padding-top: 20px;
+   text-align: center;
+ }
+ .Projects > .Projects-content> .p1 button{
+   width: 200px;
+   height: 40px;
+   background-color: rgb(66, 171, 252);
+   color: white;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   margin-left: 100px;
+   margin-top: 20px;
+   
+ }
+.Projects > .Projects-content> .p2{
+   width: 30%;
+   height: 90%;
+   /* background-color: lightblue; */
+   border: 2px solid  rgb(255, 255, 255);
+   border-radius: 0px 60px 0px 0px;
+   overflow: hidden;
+}
+.Projects > .Projects-content > .p2 > .sec2{
+   width: 100%;
+   height: 40%;
+   /* background-color: rgb(66, 171, 252); */
+}
+ .Projects > .Projects-content> .p2 > .sec2 img{
+   height: 100%;
+   width: 100%;
+ }
+ .Projects > .Projects-content> .p2 h1{
+   color: white;
+   padding-bottom: 20px;
+   text-align: center;
+ }
+ .Projects>.Projects-content> .p2 p{
+   color: white;
+   padding-top: 20px;
+   text-align: center;
+   margin-left: 10px;
+ }
+ .Projects > .Projects-content> .p2 button{
+   width: 200px;
+   height: 40px;
+   background-color: rgb(66, 171, 252);
+   color: white;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   margin-left: 100px;
+   margin-top: 20px;
+ }
+
+/* ***********************************************Contact ***************************************************************************** */
+
+ .Contact{
+    width: 100%;
+    height: 100vh; 
+    /* background-color: #FF4500; */
+    background:linear-gradient(rgb(20, 20, 104),rgb(32, 32, 157),rgb(6, 6, 40));
+ }
+ .Contact > h1{
+   color: white;
+   text-align: center;
+   padding-top: 20px;
+   font-size: 40px;
+ }
+ .Contact > .Contact-content{
+   width: 60%;
+   height: 80%;
+   /* background-color: aliceblue; */
+   margin-left: 280px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+ .Contact > .Contact-content > .por1{
+   width: 45%;
+   height: 90%;
+   /* background-color: rgb(32, 32, 157); */
+ }
+ .Contact > .Contact-content > .por1 > .photosec{
+   width: 100%;
+   height: 40%;
+   /* background-color: #ffffff; */
+ }
+ .Contact > .Contact-content > .por1 > .photosec img{
+   height: 100%;
+   width: 100%;
+   border-radius: 20px;
+   object-fit: cover;
+ }
+ .Contact > .Contact-content > .por1 > .icons1{
+   padding-top: 60px;
+   padding-left: 40px;
+ }
+ .Contact > .Contact-content > .por1 > .icons1 > * {
+  font-size: 25px;
+  margin-right: 60px;
+  color: white;
+ }
+ .Contact > .Contact-content > .por1 > .icons2{
+   padding-top: 20px;
+   padding-left: 40px;
+ }
+ .Contact > .Contact-content > .por1 > .icons2 > * {
+  font-size: 30px;
+  margin-right: 60px;
+  color: white; 
+}
+ .Contact > .Contact-content > .por2 {
+   height: 90%;
+   width: 45%;
+   border: 2px solid rgb(255, 255, 255);
+   border-radius: 20px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .Contact > .Contact-content > .por2 h1{
+  margin-bottom: 40px;
+  color: #ffffff;
+ }
+ .Contact > .Contact-content > .por2 form {
+   width: 80%;
+   height: 80%;
+   /* background-color:blueviolet; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ .Contact > .Contact-content > .por2 form input{
+   width: 100%;
+   height: 10%;
+   background-color: #ffffff;
+   margin-bottom: 10px;
+   text-align: center;
+   border-radius: 10px;
+   border: none;
+ }
+ .Contact > .Contact-content > .por2 form textarea{
+   width: 100%;
+   height: 20%;
+   background-color: #ffffff;
+   margin-bottom: 10px;
+   text-align: center;
+   border-radius: 10px;
+   border: none;
+ }
+ .Contact > .Contact-content > .por2 form button{
+   width: 50%;
+   height: 10%;
+   background-color: rgb(82, 160, 219);
+   color: rgb(5, 5, 5);
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+ }
