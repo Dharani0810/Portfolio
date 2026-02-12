@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import icon from '../Assests/Dlogo.png'
+import icon from '../Assests/Dogo.png'
 
 
  function Navbars() {
