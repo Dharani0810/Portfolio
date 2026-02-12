@@ -14,7 +14,7 @@ function Projects() {
                </div>
                        <h1>Tomato</h1>
                        <p>Designed and Implemented web application for an Food Delivery web application</p>
-                       <a href="https://food-delivery-frontend1.onrender.com"><button>Learn more</button></a> 
+                       <a href="https://food-delivery-14-frontend.onrender.com"><button>Learn more</button></a> 
           </div>
           <div className="p2">
               <div className="sec2">
