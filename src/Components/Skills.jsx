@@ -50,7 +50,7 @@ function Skills() {
           </div>
 
       </div>
-      <marquee behavior="scroll" direction="left" >Portfolio   Portfolio Portfolio Portfolio</marquee>
+      {/* <marquee behavior="scroll" direction="left" >Portfolio   Portfolio Portfolio Portfolio</marquee> */}
     </div>
   )
 }

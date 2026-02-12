@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import image from '../Assests/D logo.png'
+import icon from '../Assests/Dlogo.png'
 
 
  function Navbars() {
@@ -12,7 +12,7 @@ import image from '../Assests/D logo.png'
   return (
     <div className='Navbars'>
       <div className="Navbar1">
-        <img src={image} alt="image is not found" />
+        <img src={icon} alt="image is not found" />
         <h2>Dharani</h2>
       </div>
       <div className="Navbar2">
